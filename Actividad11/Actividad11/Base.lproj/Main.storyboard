@@ -23,26 +23,26 @@
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="celda" id="f1a-v3-Sfw" customClass="Celda" customModule="Actividad11" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="20" width="102" height="101"/>
+                                <rect key="frame" x="0.0" y="20" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                    <rect key="frame" x="0.0" y="0.0" width="102" height="101"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oo9-JC-vE8">
-                                            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="oo9-JC-vE8">
+                                            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
                                 </view>
-                                <size key="customSize" width="102" height="101"/>
+                                <size key="customSize" width="100" height="100"/>
                                 <variation key="widthClass=compact">
                                     <mask key="subviews">
                                         <include reference="oo9-JC-vE8"/>
                                     </mask>
                                 </variation>
                                 <connections>
-                                    <outlet property="imagenNum" destination="oo9-JC-vE8" id="Hjd-3l-Dj4"/>
+                                    <outlet property="imagenNum" destination="oo9-JC-vE8" id="uGk-Ei-O8d"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
